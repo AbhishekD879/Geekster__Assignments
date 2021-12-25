@@ -27,10 +27,10 @@ Assignment1======>
  * 
  * Test Cases====>
  *              When Number1=10,Number2=20,Number3=30 print 30 is greatest Among all three Numbers
-               When Number1=.200,Number2=0,Number3=-30 print .200 is greatest Among all three Numbers
-               When Number1=10,Number2=10,Number3=10 print 10 is greatest Among all three Numbers
-               When Number1=-20,Number2=-220,Number3=0 print 0 is greatest Among all three Numbers
- *              When Number1=11121212,Number2=222222222,Number3=999999999*2 print 999999999*2  is greatest Among all three Numbers
+                When Number1=.200,Number2=0,Number3=-30 print .200 is greatest Among all three Numbers
+                When Number1=10,Number2=10,Number3=10 print 10 is greatest Among all three Numbers
+                When Number1=-20,Number2=-220,Number3=0 print 0 is greatest Among all three Numbers
+                When Number1=11121212,Number2=222222222,Number3=999999999*2 print 999999999*2  is greatest Among all three Numbers
  * 
  * Apporach======>
  *              Todo1: check if number1 is greater than number2 and number3 return number1

@@ -3,7 +3,7 @@
  **Assignment1: -> Check from the objects.js file g_class. Give the list of students which have greater than or equal to 85 marks.**
 
 ## **Given:**
-    ```javascript
+```javascript
             var g_class = {
   'name': "Dec21WebFundamentals",
   'instructor': {

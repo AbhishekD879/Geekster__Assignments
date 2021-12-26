@@ -1,32 +1,77 @@
+# **Assignment1**
 
-## **Assignment1:** 
-**create an array using .push with prompt and also using parseInt(); -> Take three numbers and find max.** 
-**(Using arrays) -> Math.max(); //For further reading.**
+ **Assignment1: -> Check from the objects.js file g_class. Give the list of students which have greater than or equal to 85 marks.**
 
-### **Test Cases====>**
- *              When arr[0]=10,arr[1]=20,arr[2]=30 print 30 is greatest Among all three Numbers
-                When arr[0]=.200,arr[1]=0,arr[2]=-30 print .200 is greatest Among all three Numbers
-                When arr[0]=10,arr[1]=10,arr[2]=10 print 10 is greatest Among all three Numbers
-                When arr[0]=-20,arr[1]=-220,arr[2]=0 print 0 is greatest Among all three Numbers
-                When arr[0]=11121212,arr[1]=222222222,arr[2]=999999999*2 print 999999999*2  is greatest Among all three Numbers
-  
- ### **Apporach======>**
- *              Todo1: check if arr[0] is greater than arr[1] and arr[2] return arr[0]
-                todo2: else check if arr[1] is greater than arr[0] and arr[2] return arr[1]
-                todo2: else return arr[2]
- ### **Apporach======>**
- *                  max = arr[0]
-                     if arr[1] > max:
-                         max = arr[1]
-                     if arr[2] > max:
-                         max = arr[2] 
-                     return max
- ### **Apporach======>**
- *                  max= Math.max(arr[0],arr[1])
-                    max= Math.max(arr[2],max)
-                    return max
+## **Given:**
+    ```javascript
+            var g_class = {
+  'name': "Dec21WebFundamentals",
+  'instructor': {
+    'name': "Aayush Sinha",
+    'subject': "MERN"
+  },
+  'students': [{
+      'name': 'Ujjwal',
+      'marks': 80,
+    },
+    {
+      'name': 'Anshul',
+      'marks': 89,
+    },
+    {
+      'name': 'Lasya',
+      'marks': 77,
+    },
+    {
+      'name': 'Ayush',
+      'marks': 70,
+    },
+    {
+     'name': 'Gourav',
+     'marks': 90,
+    },
+    {
+     'name': 'Niladri',
+     'marks': 85,
+    },
+    {
+     'name': 'Ugrasen',
+     'marks': 87,
+    }
+  ],
+};
+
+```
+
+### **Approach====>**
+*                    Access the Student Array using g_class.students
+                    loop through array 
+                    check if arr[i].marks is >= 85 ? passList.push(arr[i].name)
+                    print passList
 
 
+---
 
- 
+# **Assignment2**
+ ## **Assignment2: -> Write a program to print all even numbers less than or equal to n (n is an input which we take using prompt).**
 
+
+ ## **Approach===>**
+                take N as input
+                loop till n 
+                for each value of counter check if counter%2===0 if so then print that counter 
+
+
+---
+
+# **Assignment3**
+
+## ** Write a program to take an input from the user (num) and check whether it is a prime number or not.**
+
+ ## **Approach====>**
+ *                  input n 
+                    loop form i=2 to sqrt(n)
+                            check n%i===0
+                                print(n+" is not prime number")
+                                    break;
+                    print(n+ " is prime number")

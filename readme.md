@@ -9,7 +9,8 @@
 ---
 
 ## **Dec20_Assignment:-**
-                                
+
+---                                
 
 ### **Assignment1==>**
                           
@@ -28,6 +29,8 @@
  
 ## **Dec21_Assignment:-**
 
+---
+
  
 ### **Assignment1==>**
    
@@ -44,7 +47,9 @@
 
  
 
-### **Dec22_Assignment:-**
+## **Dec22_Assignment:-**
+
+---
    
    [Hosted Link](https://abhishekd879.github.io/Geekster__Assignments/DecWebFundamentals/Dec22_Assignment/)
 
@@ -52,8 +57,9 @@
                 
  
  
- ## **Dec23_Assignment:-**
+## **Dec23_Assignment:-**
  
+---
  
  ### **Assignment1==>**
    
@@ -74,8 +80,9 @@
    [CodeLink](https://github.com/AbhishekD879/Geekster__Assignments/blob/e113e3d0fa48c8c885408333216e3ef9eaaa00c6/DecWebFundamentals/Dec23_Assignment/Assignment3/Assignment3.js)    
 
  
- ## **Dec24_Assignment:-**
-                                
+## **Dec24_Assignment:-**
+
+---                               
  
  ### **Assignment1==>**
    

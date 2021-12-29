@@ -50,7 +50,7 @@
 
 ### **Solution====>**                    
  */
-
+alert("This program traverse The g_class object and returns a array of all the Students that Scored greater than 85")
 var g_class = {
     'name': "Dec21WebFundamentals",
     'instructor': {
@@ -96,4 +96,5 @@ var g_class = {
   }
   console.log('====================================');
   console.log("The list of Students That Passed are " + passList);
+  alert("The list of Students That Passed are " + passList)
   console.log('====================================');

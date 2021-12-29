@@ -29,7 +29,7 @@ Q1Take 3 inputs from the user and show minimum of the three.
  ## Solution=====>
                                        
  */
-
+ alert("This Program Show the Minimum Among all Inputed Numbers")
  let number1=parseFloat(prompt("Enter 1st Number "))
  let number2=parseFloat(prompt("Enter 2nd Number "))
  let number3=parseFloat(prompt("Enter 3rd Number "))

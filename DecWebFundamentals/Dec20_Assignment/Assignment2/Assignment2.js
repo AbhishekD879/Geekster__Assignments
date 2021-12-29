@@ -25,10 +25,12 @@
  *                  max= Math.max(Number3,max)
  *                  return max
  */
-let number1=10;
-let number2=20;
-let number3=30;
+alert("This program Checks Maximum out of all three Numbers")
+let number1=parseInt(prompt("Enter the first Number"));
+let number2=parseInt(prompt("Enter the Second Number"));
+let number3=parseInt(prompt("Enter the Third Number"));
 let max= Math.max(Math.max(number1,number2),number3)
+alert("The Maximum among all three Entered Numbers Is " + max)
 console.log('====================================');
 console.log(max);
 console.log('====================================');

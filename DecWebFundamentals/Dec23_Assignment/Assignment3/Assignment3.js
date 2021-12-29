@@ -1,5 +1,5 @@
 /**
- ** Write a program to take an input from the user (num) and check whether it is a prime number or not.**
+ # ** Write a program to take an input from the user (num) and check whether it is a prime number or not.**
 
  ## **Approach====>**
  *                  input n 
@@ -10,6 +10,7 @@
                     print(n+ " is prime number")
                                           
  */
+alert("This Program Checks Wheather the Inputed Number is Prime Or Not")                    
 let n=parseInt(prompt("Enter a number to check wheather it is prime or not"))
 let primeFlage=true;
 for(i=2;i<Math.sqrt(n);i++){

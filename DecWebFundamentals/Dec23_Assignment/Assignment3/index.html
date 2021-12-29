@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Write a program to take an input from the user (num) and check whether it is a prime number or not.</title>
+    <script src="./Assignment3.js"></script>
+</head>
+<body>
+    <pre>
+        <h1>Write a program to take an input from the user (num) and check whether it is a prime number or not.</h1>
+        <h3>
+## **Approach====>**
+*                  input n 
+                    loop form i=2 to sqrt(n)
+                            check n%i===0
+                                print(n+" is not prime number")
+                                    break;
+                    print(n+ " is prime number")
+      
+        </h3>
+        
+        <hr>
+        <h1>Code:-</h1>
+        <div style="background-color: #333333; color:#8869b8; border-radius:20px; padding:10px; font-size:1.3rem ; font-weight:500 ;overflow-X:scroll">
+                  
+                    alert("This Program Checks Wheather the Inputed Number is Prime Or Not")                    
+                    let n=parseInt(prompt("Enter a number to check wheather it is prime or not"))
+                    let primeFlage=true;
+                    for(i=2;i<'Math.sqrt(n)';i++){
+                        if(n%i===0){
+                            
+                            
+                            primeFlage=false
+                            break;
+                        }
+                    }
+                    
+                    if(primeFlage){
+                        alert(n+" is  prime number");
+                    }else{
+                        alert(n+" is not prime number");
+                    }
+
+        </div>
+        <h1><a href="">See Code On GitHub Click me 👆 </a>   </h1> 
+
+    </pre>
+</body>
+</html>

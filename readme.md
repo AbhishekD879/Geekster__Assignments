@@ -108,13 +108,13 @@
  
 ### **Assignment1==>**
    
-   [Hosted Link](https://abhishekd879.github.io/Geekster__Assignments/DecWebFundamentals/Dec23_Assignment/Assignment1/)
+   [Hosted Link](https://abhishekd879.github.io/Geekster__Assignments/DecWebFundamentals/Dec28_Assignment/Assignment1/)
 
-   [CodeLink](https://github.com/AbhishekD879/Geekster__Assignments/blob/e113e3d0fa48c8c885408333216e3ef9eaaa00c6/DecWebFundamentals/Dec23_Assignment/Assignment1/Assignment1.js)
+   [CodeLink](https://github.com/AbhishekD879/Geekster__Assignments/blob/f3104584b3e334ed1d4b45858f334b8ca817cd50/DecWebFundamentals/Dec28_Assignment/Assignment1/index.html)
 
 ### **Assignment2==>**
    
-   [Hosted Link](https://abhishekd879.github.io/Geekster__Assignments/DecWebFundamentals/Dec24_Assignment/Assignment2/)
+   [Hosted Link](https://abhishekd879.github.io/Geekster__Assignments/DecWebFundamentals/Dec28_Assignment/Assignment2/)
 
-   [CodeLink](https://github.com/AbhishekD879/Geekster__Assignments/blob/e113e3d0fa48c8c885408333216e3ef9eaaa00c6/DecWebFundamentals/Dec24_Assignment/Assignment2/Assignment2.js)   
+   [CodeLink](https://github.com/AbhishekD879/Geekster__Assignments/blob/f3104584b3e334ed1d4b45858f334b8ca817cd50/DecWebFundamentals/Dec28_Assignment/Assignment2/index.html)   
                                                 

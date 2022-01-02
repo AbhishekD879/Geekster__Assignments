@@ -142,15 +142,15 @@
  
 ### **Assignment1==>**
    
-   [Hosted Link](https://abhishekd879.github.io/Geekster__Assignments/DecWebFundamentals/Dec28_Assignment/Assignment1/)
+   [Hosted Link](https://abhishekd879.github.io/Geekster__Assignments/DecWebFundamentals/Dec30_Assignment/Assignment1/)
 
-   [CodeLink](https://github.com/AbhishekD879/Geekster__Assignments/blob/f3104584b3e334ed1d4b45858f334b8ca817cd50/DecWebFundamentals/Dec28_Assignment/Assignment1/index.html)
+   [CodeLink](https://github.com/AbhishekD879/Geekster__Assignments/blob/0455030259f48a68e7ac18f58e66ea731a0babd3/DecWebFundamentals/Dec30_Assignment/Assignment1/index.html)
 
 ### **Assignment2==>**
    
-   [Hosted Link](https://abhishekd879.github.io/Geekster__Assignments/DecWebFundamentals/Dec28_Assignment/Assignment2/)
+   [Hosted Link](https://abhishekd879.github.io/Geekster__Assignments/DecWebFundamentals/Dec30_Assignment/Assignment2/)
 
-   [CodeLink](https://github.com/AbhishekD879/Geekster__Assignments/blob/f3104584b3e334ed1d4b45858f334b8ca817cd50/DecWebFundamentals/Dec28_Assignment/Assignment2/index.html) 
+   [CodeLink](https://github.com/AbhishekD879/Geekster__Assignments/blob/0455030259f48a68e7ac18f58e66ea731a0babd3/DecWebFundamentals/Dec30_Assignment/Assignment2/index.html) 
 
 
 ## **Dec31_Assignment:-**

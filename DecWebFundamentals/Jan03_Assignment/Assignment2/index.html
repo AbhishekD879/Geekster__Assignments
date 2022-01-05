@@ -57,6 +57,7 @@
     calculate.addEventListener("click",()=>{
         try{
             actualOutput.textContent=eval(operationField[0].textContent)
+            operationField[0].textContent=actualOutput.textContent
         }catch{
             alert("invalid Input")
         }

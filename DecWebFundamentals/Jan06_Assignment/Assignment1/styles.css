@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+}
+
+#book{
+    border: 2px solid;
+    border-color: black;
+    box-shadow: 2px 2px 0 0 black;
+    border-radius: 10px;
+    padding: 5rem;
+    width: 45%;
+    margin: auto;
+}
+/* .chapter_border{
+    background: linear-gradient(360deg,#ffc6ff,#954cfb);
+} */
+.initial__chapter{
+    font-size: 2rem;
+}
+.Actual__starting{
+    text-align: justify;
+}
+.Actual__starting > p{
+    display: inline;
+}
+.Actual__starting > p::first-letter{
+    float: left; 
+    font-weight: 700;
+    font-size: 5rem;
+}
+span{
+    font-size: 5rem;
+    font-weight: 700;
+    float: left; 
+    margin-top: -15px;
+    margin-bottom: -2rem;
+}
+.chapter{
+    border-top: 2px solid #ffc6ff;
+    border-bottom: 2px solid #ffc6ff;
+    border-left: 2px solid #954cfb;
+    border-right: 2px solid #954cfb;
+    text-align: center;
+}
+.chapter >h1{
+    margin-bottom: 7rem;
+}
+.dark{
+    text-align: end;
+    cursor: pointer;
+    width: 20%;
+    text-align: left;
+    margin-bottom: 1rem;
+    padding: 5px;
+    border :1px solid;
+    border-color: black;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.dark > div{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    
+}
+.dark__on{
+    background-color: black;
+}
+.dark_off{
+    background-color: white;
+}

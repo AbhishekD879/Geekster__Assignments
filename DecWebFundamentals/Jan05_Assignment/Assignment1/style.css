@@ -1,0 +1,558 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+body{
+   background: #0D0D2B;
+   
+}
+a{
+    text-decoration: none;
+    color: #F2F2F2;
+}
+#main__Wrapper{
+    margin: 60px 120px 80px 118px;
+    background: #0D0D2B;
+}
+/* Header Section Styling */
+
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+    margin-bottom: 51px;
+    /* position: fixed; */
+    width: 100%;
+    background-color: #0D0D2B;
+}
+
+/* header Left Start */
+.header__brandLogo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+.header__brandLogo > span{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    letter-spacing: 0.04em;
+    margin-left: 1rem;
+}
+/* header Left End */
+
+
+/* Header Rignt Start */
+
+
+/* Header Nav Start  */
+.header__Right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.header__Nav >ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__Nav li {
+    list-style: none;
+    margin: 0 1rem;
+}
+
+.header__Nav li > a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    border-width: 0;
+    transition: all .3s ease;
+}
+.header__Nav a:hover {
+   
+    border-bottom: 1px solid #F2F2F2;
+}
+/* Header Nav End */
+
+/*  Header Sign Up Start */
+
+.header__signIn{
+    
+    display:flex ;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__signIn * {
+    margin: 0 .5rem
+}
+.header__signIn > div {
+    border-left: 1px solid #F2F2F2;
+    height: 15px;
+}
+.header__signIn > a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    font-weight: 700;
+    padding: 4px 10px;
+    border-radius: 20px;
+    transition: all .3s ease-in;
+}
+.header__signIn >a:hover{
+   
+    
+    color: #0D0D2B;
+    background-color: #fff;
+    
+}
+.header__signIn > button{
+    padding: 14px 32px;
+    border-radius: 25px;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 150%;
+    text-align: center;
+    color: #fff;
+    background-color: #3671E9;
+    border: none;
+}
+.header__signIn > button:hover{
+    box-shadow: 0 0 10px #3671E9 ;
+    cursor: pointer;
+}
+/*  Header Sign Up  End */
+/* 
+Banner Styslis==>
+*/
+
+#Banner{
+    display: flex;
+    align-items: center;
+    margin-bottom: 102px;
+}
+.Banner__leftSide{
+    color: #fff;
+    height: 100%;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start; */
+}
+
+.discount{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:  rgba(255, 255, 255, 0.1);
+    width: 50%;
+    padding: 4px 5px;
+    border-radius: 2rem;
+    margin-bottom: 1.5rem;
+}
+.discount > p{
+    padding: 4px 16px;
+    background-color: #fff;
+    color: #0D0D2B;
+    border-radius: 2rem;
+}
+.discount >h5{
+    margin-right: 1rem;
+    font-weight: 200;
+    letter-spacing: 0.01em;
+    line-height: 28px;
+}
+.Banner__leftSide > h1{
+    font-size: 4rem;
+    font-weight: bold;
+    line-height: 76px;
+    margin-bottom: 1.5rem;
+}
+.Banner__leftSide >p{
+    font-size: 16px;
+    line-height: 28px;
+/* or 175% */
+    color: #E0E0E0;
+    letter-spacing: 0.01em;
+    margin-bottom: 2rem;
+}
+.Banner__leftSide>button{
+    padding: .5rem 2rem;
+    background-color: #3671E9;
+    border: none;
+    color: #fff;
+    border-radius: 2rem;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    
+}
+.Banner__leftSide > button:hover{
+    
+    box-shadow: 0 0 10px #3671E9 ;
+    cursor: pointer;
+}
+
+
+/* ..............................................................WhyCrappo............................................. */
+
+#whyCRAPPO{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.whyCrappo__Stats{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.stat__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.stat__container >img{
+    margin-right: 1.5rem;
+}
+.stat__container h1{
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 150%;
+}
+.stat__container p{
+    font-size: 16px;
+    line-height: 28px;
+/* identical to box height, or 175% */
+
+    letter-spacing: 0.01em;
+
+/* Neutral / Grey 5 */
+
+    color: #E0E0E0;
+}
+/*  ......................................................whyCrappo__Content.......................... */
+.whyCrappo__Content{
+    display:flex;
+    padding: 100px 0 ;
+    align-items: center;
+    
+
+}
+.whyCrappo_content_container{
+    /* display: flex;
+    flex-direction: column; */
+    margin-left: 4.375rem;
+}
+.whyCrappo_content_container > h1{
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 60px;
+    color: #FFFFFF;
+    margin-bottom:1.7rem;
+}
+.whyCrappo_content_container > p{
+    font-size: 16px;
+    line-height: 28px;
+/* or 175% */
+    letter-spacing: 0.01em;
+     color: #E0E0E0;
+     margin-bottom: 2rem;
+
+}
+.whyCrappo_content_container > button{
+    padding: .5rem 1.5rem;
+    border: 0;
+    background-color: #3671E9;
+    color: white;
+    border-radius: 2rem;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 150%;
+}
+.whyCrappo_content_container > button:hover{
+    box-shadow: 0 0 20px #3671E9;
+    cursor: pointer;
+}
+/*  ......................................................whyCrappo__Content End.......................... */
+
+/* ........................................................howMuchCanYouEarn................................... */
+
+#howMuchCanYouEarn{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+   
+}
+
+#howMuchCanYouEarn > div{
+    color: #fff;
+    margin-bottom: 13.688rem;
+}
+#howMuchCanYouEarn > div >h1{
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 150%;
+/* identical to box height, or 60px */
+
+    text-align: center;
+
+/* Neutral / White */
+
+    color: #FFFFFF;
+    margin-bottom: 1.5rem;
+}
+#howMuchCanYouEarn > div >p{
+    font-size: 18px;
+line-height: 150%;
+/* or 27px */
+
+text-align: center;
+
+/* Neutral / Grey 5 */
+
+color: #E0E0E0;
+}
+
+
+/* ........................................................calculator__Input....................................... */
+
+.howMuchCanYouEarn__Calculator{
+    background-color: #fff;
+    border-radius: 1rem;
+    /* box-shadow: 0px 2px 5px 1px lightgray; */
+    filter:drop-shadow(0px 20px 200px rgba(57, 23, 119, 0.05));
+    margin-top: 4rem;
+    position: absolute;
+    top: 50%;
+}
+.howMuchCanYouEarn__Calculator__Input{
+    padding: 48px;
+    display: flex;
+    align-items: center;
+
+}
+.howMuchCanYouEarn__Calculator__Input > input,.howMuchCanYouEarn__Calculator__Input > input:active,.howMuchCanYouEarn__Calculator__Input > select{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid lightgray; 
+    width: 25.188rem;
+    height: 2.5rem;
+    font-size: 20px;
+    line-height: 150%;
+    color: #0D0D2B;
+}
+.howMuchCanYouEarn__Calculator__Input > select{
+    width: 200px;
+    margin-left: 3rem;
+}
+.howMuchCanYouEarn__Calculator__Input >button{
+    padding: 16px 32px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    border-radius: 2rem;
+    background-color: #3671E9;
+    
+    color: #fff;
+    border: none;
+    margin-left: 3rem;
+}
+.howMuchCanYouEarn__Calculator__Input >button:hover{
+    box-shadow: 0 0 10px #3671E9;
+}
+/* ........................................................claculator__InputEnd.................................... */
+
+/* ........................................................claculator__Output.................................... */
+
+.howMuchCanYouEarn__Calculator__Output{
+    padding: 48px;
+}
+.howMuchCanYouEarn__Calculator__Output > p{
+    font-size: 16px;
+    line-height: 28px;
+/* identical to box height, or 175% */
+
+    letter-spacing: 0.01em;
+
+/* Neutral / Grey 3 */
+
+    color: #828282;
+
+}
+.howMuchCanYouEarn__Calculator__Output__firstChild{
+    color: #3671E9 !important;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 150%;
+/* identical to box height, or 24px */
+
+    letter-spacing: 0.04em;
+}
+.howMuchCanYouEarn__Calculator__Output >h1{
+    color: #000;
+    font-weight: 700;
+    font-size: 2rem;
+    
+    line-height: 150%;
+/* identical to box height, or 48px */
+
+    letter-spacing: 0.04em;
+    margin-bottom: 1rem;
+}
+.howMuchCanYouEarn__Calculator__Output >h1>span{
+    color: #3671E9;
+}
+
+/* ........................................................claculator__OutputEnd.................................... */
+
+/* ........................................................howMuchCanYouEarn End................................... */
+
+/* .........................................................Trade_securely.......................................... */
+
+#Trade_securely{
+    background: linear-gradient(180deg, #F8F9FB 0%, #FAFBFF 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+#Trade_securely >h1{
+    text-align: center;
+    font-size: 40px;
+    line-height: 150%;
+/* or 60px */
+
+    text-align: center;
+
+/* Color / Primary */
+
+    color: #0D0D2B;
+    margin-bottom: 4rem;
+    margin-top: 19.75rem;
+}
+.Trade_securely__CardsContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 7.5rem;
+    padding: 0 30px;
+}
+.Trade_securely__Card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    background-color: #fff;
+    margin-right: 2.813rem;
+    box-shadow: 0 0 2px lightgray;
+    flex-basis: 100%;
+}
+.Trade_securely__Card > h2{
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+.Trade_securely__Card > h2 >span{
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 150%;
+/* identical to box height, or 27px */
+    text-align: center;
+/* Neutral/Grey 4 */
+    color: #BDBDBD;
+}
+.Trade_securely__Card >p{
+    text-align: center;
+    margin-bottom: 1.563rem;
+    font-size: 1rem;
+    line-height: 175%;
+/* or 175% */
+
+    text-align: center;
+    letter-spacing: 0.01em;
+}
+.Trade_securely__Card >button{
+    background-color: white;
+    font-size: 2rem;
+    font-weight: 500;
+    border: 2px solid rgba(43, 7, 110, 0.2);
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+    cursor: pointer;
+    margin-bottom: 3rem;
+    
+}
+.Trade_securely__Card:hover{
+    background-color: #2B076E;
+    color: #fff;
+}
+
+
+/* .........................................................Trade_securelyEnd....................................... */
+
+/*............................................................. footer.............................................. */
+.footer__Top{
+    display: flex;
+    padding: 5rem 7.5rem;
+    align-items: flex-start;
+    justify-content: space-between;
+    color: #fff;
+}
+.footer__logo{
+    display: flex;
+    align-items: center;
+}
+.footer__logo >img{
+    margin-right: 1rem;
+}
+.quick__Links,.resources{
+    padding-top: 10px;
+}
+.quick__Links > ul >li, .resources >ul >li{
+    text-decoration: none;
+    list-style: none;
+    font-size: 16px;
+    line-height: 38px;
+    color: #F2F2F2;
+
+}
+.quick__Links > h3,.resources> h3{
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+
+}
+
+.footer__Bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    margin: 0 120px 1rem;
+
+}
+.footer__Bottom > div >i{
+    margin: 0 1rem;
+    cursor: pointer;
+}
+
+/*............................................................. footer.............................................. */

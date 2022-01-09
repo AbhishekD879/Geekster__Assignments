@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <main id="book">
+            <p>Dark mode</p>
+            <div class="dark" onclick="darkmode()"><div class="dark__on"></div><div class="dark_off"></div></div>
+            <div class="chapter">
+                <p>CHAPTER 1</p>
+                <p class="initial__chapter" >*</p>
+                <h1>Andrew Street 1</h1>
+                <div class="Actual__starting">
+                   <span>T</span> <p >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum eos reprehenderit a eveniet labore quaerat delectus modi officiis inventore, architecto debitis ullam aliquid repellendus obcaecati, ducimus neque iusto corporis Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste rerum exercitationem quaerat laborum quidem reiciendis at, ducimus explicabo sint eaque dolor perferendis fuga repellendus a porro excepturi molestiae! Neque quod doloremque at consequatur aspernatur eligendi et inventore commodi amet a. Tenetur, odio ab? Sapiente consequuntur, illum neque et minus deserunt mollitia ut distinctio doloribus quidem quis perspiciatis labore soluta alias harum vitae magnam quam optio corrupti tempore adipisci obcaecati nulla iste! Illum officiis fugit, obcaecati repellat excepturi quia. Nemo, sapiente modi autem ullam aperiam error blanditiis nobis optio beatae fugit iure quod explicabo ex. Quod, voluptatibus quas cumque iusto harum porro quasi ex ipsum, iure omnis corrupti sint dignissimos repudiandae doloremque! Assumenda, et esse? Ipsum atque architecto suscipit ad nisi at in vel maxime, itaque saepe, accusamus voluptatem. Quis rerum praesentium corrupti nemo velit explicabo eaque. Expedita numquam eos ab dolor rem nihil, sed ipsam tempore harum, eaque asperiores eius modi totam assumenda similique porro culpa in deserunt dicta dignissimos ipsum nobis autem, pariatur quis. Laudantium officiis quidem commodi, in, reprehenderit eos laboriosam architecto suscipit incidunt placeat sed. Dolorem culpa corrupti ad saepe nihil rerum maxime odit autem magni deleniti minima veniam tempore, sapiente velit. Fugit, cumque quo laudantium neque alias dolor mollitia earum illo necessitatibus, odit a! Nostrum repellendus consequatur obcaecati quis vero veritatis consequuntur debitis autem, molestiae reiciendis neque blanditiis nulla dolorem possimus aperiam laboriosam odio quasi quidem dolore ad! Iusto, maiores reprehenderit dicta rerum itaque sequi officia, excepturi at molestias, ullam quod nihil eligendi commodi amet quae porro quia dolore aut esse aperiam nostrum sapiente non tempore ratione. Autem voluptatem doloribus rerum, porro eum facilis omnis, repellendus ex animi dolore, excepturi et perferendis esse harum. Qui commodi enim consectetur, eos vitae recusandae fugit beatae laborum provident eaque. Nihil quidem maxime omnis error eligendi.</p>
+                </div>
+            </div>
+        
+    </main>
+</body>
+<script>
+    let button=document.getElementsByClassName("initial__chapter")[0]
+    let book=document.querySelector("#book")
+    let dark=document.getElementsByClassName("dark")[0]
+    let darkmode=()=>{
+        let body=document.getElementsByTagName("body")[0]
+        if(body.style.backgroundColor==="black" && body.style.color==="white"){
+            body.style.backgroundColor="white";
+            body.style.color="black";
+            
+            book.style.borderColor="black";
+            dark.style.borderColor="black"
+            
+        }else{
+            body.style.backgroundColor="black";
+            body.style.color="white";
+            book.style.borderColor="white";
+            dark.style.borderColor="white"
+        }
+       
+    }
+</script>
+</html>

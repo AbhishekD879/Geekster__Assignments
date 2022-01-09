@@ -1,4 +1,172 @@
-.img1{
-   width: 200px;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mainContainer{
+    display: flex;
+    height: 100vh;
+    
+}
+#main{
+    flex: 1;
+    width: 100vw;
+    padding: 37px 52px;
+}
+
+/* Header Styling */
+header{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header>ul{
+    display: inline-block;
+    margin-top: 10px;
+}
+header >ul > li{
+    display: inline-block;
+    list-style: none;
+    
+}
+header >ul >li >a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem;
+    line-height: 12px;
+/* identical to box height */
+
+    letter-spacing: 0.14em;
+    margin: 0 20px;
+    color: #000000;
+}
+/* Header Styling */
+
+#aside{
+    background-color: #EC5863;
+    height: 100vh;
+    border-radius: 30px 0 0 30px;
+    flex: .35;
+    display: flex;
+    flex-direction: column;
+    padding: 37px 52px;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+.aside__Download{
+    
+    margin-top: .5rem;
+    padding: 1rem 2.5rem; 
+    font-weight: 800;
+    font-size: 10px;
+    line-height: 12px;
+/* identical to box height */
+
+    letter-spacing: 0.14em;
+
+    color: #FCFDFE;
+    border-radius: 5px;
+    background-color: #4285F4;
+    border: none;
+}
+.aside__Download:hover{
+    box-shadow: 0 0 10px #4285F4 ;
+}
+/* ...........................................................................TakeCare.............................. */
+.take__Care{
+    display: flex;
+    margin-top: 90px;
+    align-items: center;
+    justify-content: space-between;
+}
+.take__Care__left{
+    flex: 1;
+    margin-top: -5rem;
    
+}
+.take__Care__left > h1{
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 126%;
+/* or 55px */
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #000000;
+    margin-bottom: 12px;
+
+}
+.take__Care__left >h1 > span{
+    color: #4285F4;
+}
+.take__Care__left >p {
+    font-size: .8rem;
+    line-height: 138.5%;
+/* or 17px */
+
+    letter-spacing: 0.08em;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+
+    color: #616161;
+    margin-bottom: 1.5rem;
+}
+.take__Care__left>button{
+    padding: 14px 29px;
+    border-radius: 5px;
+    background-color: #EC5863;
+    border: none;
+    font-weight: 800;
+    font-size: 10px;
+    line-height: 12px;
+/* identical to box height */
+
+    letter-spacing: 0.14em;
+
+    color: #FCFDFE;
+}
+.take__Care__left > button:hover{
+    box-shadow: 0 0 10px #EC5863;
+}
+.take__Care__Right{
+    position: relative;
+
+}
+.take__Care__Right>img{
+    position: relative;
+    left:53%;
+    
+}
+/* .......................................................................Watch Video........................... */
+.watch__Video{
+    display: flex;
+    align-items: center;
+}
+.playBtn{
+    width: 44px;
+    height: 44px;
+    border: 1px solid #4285F4;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 12px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 800;
+
+}
+.watch_video_Text{
+    font-size: 9px;
+    line-height: 126%;
+/* or 11px */
+
+    letter-spacing: 0.165em;
+    text-transform: uppercase;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+
+    color: #000000;
+    margin-top: 5px;
+}
+.playBtn:hover{
+    opacity: .5;
 }

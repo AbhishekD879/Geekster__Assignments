@@ -163,4 +163,81 @@
 
    [CodeLink](https://github.com/AbhishekD879/Geekster__Assignments/blob/2e871865d793a27eb3d91a009514ddcad9c18382/DecWebFundamentals/Dec31_Assignment/Assignment1/index.html)
 
+
+## **Jan03_Assignment:-**
+ 
+---
+ 
+### **Assignment1==>**
+   
+   [Hosted Link](https://abhishekd879.github.io/Geekster__Assignments/DecWebFundamentals/Jan03_Assignment/Assignment1/)
+
+   [CodeLink](https://github.com/AbhishekD879/Geekster__Assignments/tree/main/DecWebFundamentals/Jan03_Assignment/Assignment1)
+
+### **Assignment2==>**
+   
+   [Hosted Link](https://abhishekd879.github.io/Geekster__Assignments/DecWebFundamentals/Jan03_Assignment/Assignment2/)
+
+   [CodeLink](https://github.com/AbhishekD879/Geekster__Assignments/tree/main/DecWebFundamentals/Jan03_Assignment/Assignment2) 
+
+
+
+
+## **Jan04_Assignment:-**
+ 
+---
+ 
+### **Assignment1==>**
+   
+   [Hosted Link](https://abhishekd879.github.io/Geekster__Assignments/DecWebFundamentals/Jan04_Assignment/)
+
+   [CodeLink](https://github.com/AbhishekD879/Geekster__Assignments/blob/b663383c8396b0e8840d4f68d54f88801e5e8536/DecWebFundamentals/Jan04_Assignment/Readme.md)
+
+
+
+
+
+## **Jan05_Assignment:-**
+ 
+---
+ 
+### **Assignment1==>**
+   
+   [Hosted Link](https://abhishekd879.github.io/Geekster__Assignments/DecWebFundamentals/Jan05_Assignment/Assignment1/)
+
+   [CodeLink](https://github.com/AbhishekD879/Geekster__Assignments/tree/main/DecWebFundamentals/Jan05_Assignment/Assignment1)
+
+
+
+
+
+## **Jan06_Assignment:-**
+ 
+---
+ 
+### **Assignment1==>**
+   
+   [Hosted Link](https://abhishekd879.github.io/Geekster__Assignments/DecWebFundamentals/Jan06_Assignment/Assignment1/)
+
+   [CodeLink](https://github.com/AbhishekD879/Geekster__Assignments/tree/main/DecWebFundamentals/Jan06_Assignment/Assignment1)
+
+
+
+
+## **Jan07_Assignment:-**
+ 
+---
+ 
+### **Assignment1==>**
+   
+   [Hosted Link](https://abhishekd879.github.io/Geekster__Assignments/DecWebFundamentals/Jan07_Assignment/Assignment1/)
+
+   [CodeLink](https://github.com/AbhishekD879/Geekster__Assignments/tree/main/DecWebFundamentals/Jan07_Assignment/Assignment1)
+
+### **Assignment2==>**
+   
+   [Hosted Link](https://abhishekd879.github.io/Geekster__Assignments/DecWebFundamentals/Jan07_Assignment/Assignment2/)
+
+   [CodeLink](https://github.com/AbhishekD879/Geekster__Assignments/tree/main/DecWebFundamentals/Jan07_Assignment/Assignment2) 
+
    

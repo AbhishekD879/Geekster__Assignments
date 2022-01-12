@@ -17,7 +17,7 @@ a{
 #main__Wrapper{
     margin: 60px 120px 80px 118px;
     background: #0D0D2B;
-    margin-top: 60px;
+    margin-top: 80px;
 }
 /* Header Section Styling */
 
@@ -146,6 +146,7 @@ Banner Styslis==>
     display: flex;
     align-items: center;
     margin-bottom: 102px;
+    
 }
 .Banner__leftSide{
     color: #fff;
@@ -208,7 +209,24 @@ Banner Styslis==>
     box-shadow: 0 0 10px #3671E9 ;
     cursor: pointer;
 }
+.Banner_rightSide >img{
+    animation: bounce2 3s infinite both ;
+}
 
+@keyframes bounce2 {
+    0%{
+        transform: translateY(-20px);
+    }
+    50%{
+        transform: translateY(20px);
+    }
+    /* 75%{
+        transform: translateY(-20px);
+    } */
+    100%{
+        transform: translateY(-20px);
+    }
+}
 
 /* ..............................................................WhyCrappo............................................. */
 
@@ -290,6 +308,23 @@ Banner Styslis==>
 .whyCrappo_content_container > button:hover{
     box-shadow: 0 0 20px #3671E9;
     cursor: pointer;
+}
+.whyCrappo__bouncing{
+    animation: bounce 3s infinite both ;
+}
+@keyframes bounce {
+    0%{
+        transform: translateY(-30px);
+    }
+    50%{
+        transform: translateY(30px);
+    }
+    /* 75%{
+        transform: translateY(-20px);
+    } */
+    100%{
+        transform: translateY(-30px);
+    }
 }
 /*  ......................................................whyCrappo__Content End.......................... */
 
@@ -469,6 +504,7 @@ color: #E0E0E0;
     margin-right: 2.813rem;
     box-shadow: 0 0 2px lightgray;
     flex-basis: 100%;
+    transition: all .5s ease;
 }
 .Trade_securely__Card > h2{
     margin-top: 3rem;
@@ -505,10 +541,12 @@ color: #E0E0E0;
     cursor: pointer;
     margin-bottom: 3rem;
     
+    
 }
 .Trade_securely__Card:hover{
     background-color: #2B076E;
     color: #fff;
+    transform: scale(1.1);
 }
 
 
@@ -562,3 +600,30 @@ color: #E0E0E0;
 }
 
 /*............................................................. footer.............................................. */
+
+
+/* animation */
+.typing__animation__forhowMuch{
+    animation:typing infinite  4s  steps(5) ;
+    overflow: hidden;
+    border-right: 1px solid white;
+    white-space: nowrap;
+}
+
+@keyframes typing {
+    0%{
+        width: 0ch;
+    }
+    25%{
+        width: 20ch;
+    }
+    50%{
+        width: 10ch;
+    }
+    75%{
+        width:18ch ;
+    }
+    100%{
+        width: 27ch;
+    }
+}

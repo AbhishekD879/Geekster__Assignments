@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+   
+    background-color: #16252d;
+    padding: 20px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+}
+.container >h1{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.subheading{
+    animation:typing infinite  4s  steps(5) ;
+    overflow: hidden;
+    border-right: 1px solid white;
+    white-space: nowrap;
+    text-align: center;
+}
+.input{
+    display: flex;
+    align-items: center;
+}
+@keyframes typing {
+    0%{
+        width: 0ch;
+    }
+    25%{
+        width: 20ch;
+    }
+    50%{
+        width: 10ch;
+    }
+    75%{
+        width:25ch ;
+    }
+    100%{
+        width: 32ch;
+    }
+}
+.input>label{
+    margin-right: 3rem;
+    width: 9rem;
+    height: 8rem;
+    overflow: hidden; 
+    
+}
+label >img{
+    display: block;
+    width: 100%;
+    object-position: center;
+    object-fit: cover;
+    width: 9rem;
+    height: 8rem;
+}
+.Ninput{
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+}
+.output{
+    margin-top: 3rem;
+    /* text-align: center; */
+    min-width: 40rem;
+    min-height: 40rem;
+    
+    
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #16252d;
+    font-size: 2rem;
+    font-weight: bold;
+    overflow: scroll;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.submitBtn{
+    margin-top: 2rem;
+    padding: 20px 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: #ea553c;
+    color: #fff;
+}

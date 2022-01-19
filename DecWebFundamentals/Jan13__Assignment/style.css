@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #0d1017;
+}
+.container{
+    padding: 1rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container>h1{
+    text-align: center;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+.matrixContainer{
+    display: grid;
+    /* grid-auto-flow: column; */
+    background-color: #fff;
+    
+    gap:1rem;
+    margin: 0 auto;
+    padding: 10px;
+    
+}
+.cell{
+    width: 5rem;
+    height: 5rem;
+    background-color: #0d1017;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.lableSizeOfMatrix{
+    color: #fff;
+    font-size: 1.5rem;
+}
+.sizeOfform{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.sizeOfform >.sizeOfmatrix{
+    display: block;
+    margin: 1rem auto;
+    margin-bottom: 3rem;
+    outline: none;
+    padding: 15px 40px;
+    padding-right: 10px;
+    font-size: 1.5rem;
+}
+.sizeOfform > .sizeOfmatrixSubmit{
+    margin: 1rem;
+    padding: 20px 40px;
+    background-color: #ea553c;
+    border-radius: 10px;
+    color: #fff;
+    outline: none;
+    border: none;
+    font-size: 1.2rem;
+}
+.calculate{
+    margin-top: 1rem;
+    margin: 1rem;
+    padding: 20px 40px;
+    background-color: #ea553c;
+    border-radius: 10px;
+    color: #fff;
+    outline: none;
+    border: none;
+    font-size: 1.2rem;
+}
+.MatrixOutput{
+    display: flex;
+    align-items: center;
+}
+.output{
+    margin: 0 3rem;
+    color: #fff;
+}
+.LeftDiagonal__Sum__outputBox,.RightDiagonal__Sum__outputBox{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    color: #ea553c;
+}

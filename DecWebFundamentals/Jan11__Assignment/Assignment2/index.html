@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Pattern Printer</title>
+</head>
+<body>
+    <main class="container">
+     <h1>Pyramid Pattern Printer</h1>
+     <h1 class="subheading">Print Pattern From Below Options</h1>  
+     
+     <p>Please Select A pattern :</p>
+     <br>
+     
+     <label for="Ninput">Enter The Value Of &nbsp;N</label>
+     <br>
+     <form>
+     <input required="true" placeholder="Enter the Value of N" name="Ninput" class="Ninput" type="number">
+     <br>
+     <br>
+    <section class="input">
+  
+  
+  <input class="radio__input" type="radio" id="Half_Pyramid" name="pattern" value="Half_Pyramid">
+  <label title="Half_Pyramid" for="Half_Pyramid">
+    <img src="./images/Half_Pyramid.png" >
+  </label>
+
+  <input class="radio__input" type="radio" id="Inverted_half_Pyramid" name="pattern" value="Inverted_half_Pyramid">
+  <label title="Inverted_half_Pyramid" for="Inverted_half_Pyramid">
+    <img src="./images/Inverted_half_Pyramid.png" >
+  </label>
+
+  <input class="radio__input" type="radio" id="Inverted__Hollow__Half" name="pattern" value="Inverted__Hollow__Half">
+  <label title="Inverted__Hollow__Half" for="Inverted__Hollow__Half">
+    <img src="./images/Inverted__Hollow__Half.png" >
+  </label>
+
+  <input class="radio__input" type="radio" id="Full__Pyramid" name="pattern" value="Full__Pyramid">
+  <label title="Full__Pyramid" for="Full__Pyramid">
+    <img src="./images/Full__Pyramid.png" >
+  </label>
+
+  <input class="radio__input" type="radio" id="Inverted_Full_Pyramid" name="pattern" value="Inverted_Full_Pyramid">
+  <label title="Inverted_Full_Pyramid" for="Inverted_Full_Pyramid">
+    <img src="./images/Inverted_Full_Pyramid.png" >
+  </label>
+  
+  <input class="radio__input" type="radio" id="Full__Hallow__Pyramid" name="pattern" value="Full__Hallow__Pyramid">
+  <label title="Full__Hallow__Pyramid" for="Full__Hallow__Pyramid">
+    <img src="./images/Full__Hallow__Pyramid.png" >
+  </label>
+
+    </section>
+    <input  class="submitBtn" type="submit" >
+    </form>
+    <div>
+        <h3 class="output"></h3>
+    </div>
+
+
+    </main>
+
+   <script src="./script.js"></script> 
+</body>
+</html>

@@ -1,0 +1,130 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,900);
+*{
+    margin: 0;
+    padding: 0;
+    font: 14px/20px "Lato", Arial, sans-serif;
+
+}
+
+.mainCardContainer{
+    background-image: url("./assets/backgroungImg.jpg");
+    background-repeat: no-repeat;
+
+    background-size: cover;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-clip: border-box;
+    
+}
+.card__container{
+
+    display: flex;
+    position: absolute;
+    right: -10%;
+    top: 55%;
+    transform: translate(-50%,-50%);
+    height: 70%;
+    justify-content: center;
+    text-align: center;
+    
+}
+.Card{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 25%;
+   max-width: 350px;
+   min-width:300px ;
+   
+   /* position: absolute;
+   right: -2%;
+   top: 55%;
+   transform: translate(-50%,-50%); */
+   background-color: rgba(255, 70, 84,0.5);
+   box-shadow: 0px 0px 5px #ff4654;
+   border-radius: 5px;
+   display: none;
+    transform: translateX(-10px);
+    transition: all .5s ease;
+}
+.card__active{
+    display: flex;
+    transform: translateX(0);
+}
+.card__container> button{
+    border: none;
+    background-color: transparent;
+    margin: 1rem;
+    font-size: 2rem;
+    color: #fff;
+    margin-top: 50%;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    background-color: #fff;
+    color: #101823;
+    transition: all .5s ease;
+    cursor: pointer;
+    user-select: none;
+}
+.card__container> .previous:hover{
+    transform: translateX(-10px);
+}
+.card__container> .next:hover{
+    transform: translateX(10px);
+}
+.Info{
+    color: #ece7e1;
+    margin-bottom: 1rem;
+}
+.Info >h1,.Info>h3{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.Info>p{
+    padding: 10px;
+}
+.like__dislike__counter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    
+    color: #fff;
+    background-color: #101823;
+    border-radius: 0 0 10px 10px;
+}
+.like__dislike__counter> div{
+    font-size: 2rem;
+}
+.like__dislike__counter>span{
+    font-size: 2rem;
+}
+.material-icons-outlined{
+    padding: 30px;
+    transition: all .5s ease;
+    user-select: none;
+}
+.material-icons-outlined:hover{
+    transform: scale(1.5);
+    cursor: pointer;
+}
+
+.imageContainer{
+   overflow: hidden; 
+   margin-bottom: 1rem;
+   padding: 10px;
+   flex-grow: 2;
+}
+.imageContainer>img{
+    display: block;
+    width: 100%;
+    object-position: center;
+    object-fit: cover;
+    /* position: absolute;
+    top: -10%;
+    left: 0%;
+    z-index: -1; */
+    
+}

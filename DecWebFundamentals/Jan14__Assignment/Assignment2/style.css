@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #0d1017;
+    padding: 30px;
+}
+.container{
+
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+form{
+    margin-top: 2rem;
+}
+input[type='number']{
+    display: block;
+    margin: 1rem auto;
+    margin-bottom: 3rem;
+    outline: none;
+    padding: 15px 40px;
+    padding-right: 10px;
+    font-size: 1.5rem;
+}
+input[type="submit"]{
+    margin: 1rem;
+    padding: 20px 40px;
+    background-color: #ea553c;
+    border-radius: 10px;
+    color: #fff;
+    outline: none;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    box-shadow: 0 0 10px #ea553c;
+}
+.cell{
+    width: 5rem;
+    height: 5rem;
+    background-color: #0d1017;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.matrixContainer{
+    display: grid;
+    /* grid-auto-flow: column; */
+    background-color: #fff;
+    grid-auto-flow: column;
+    gap:1rem;
+    margin: 0 auto;
+    margin-top: 3rem;
+    padding: 10px;
+    
+}

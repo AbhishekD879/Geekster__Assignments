@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main class="container">
+
+        <h1>Sum of Diagonal Of Square Matrix</h1>
+        <form class="sizeOfform">
+         <label class="lableSizeOfMatrix" for="sizeOfmatrix"> Enter The Size of Matrix</label>
+         <input required="true" class="sizeOfmatrix" name="sizeOfmatrix" type="number"  />
+         <input class="sizeOfmatrixSubmit" type="submit">
+        </form>
+        <div class="MatrixOutput">
+            <div class="output LeftDiagonal__Sum">
+                <h3>Left Diagonal Sum</h3>
+                <p class="LeftDiagonal__Sum__outputBox"></p>
+            </div>
+            <div class="matrixContainer">
+            
+            </div>
+            <div class="output rightDiagonal__Sum">
+                <h3>Right Diagonal Sum</h3>
+                <p class="RightDiagonal__Sum__outputBox"></p>
+            </div>
+        </div>
+       
+        <button class="calculate">Calculate</button>
+    </main>
+
+   <script src="./script.js"></script> 
+</body>
+</html>

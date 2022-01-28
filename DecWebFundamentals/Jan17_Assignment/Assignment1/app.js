@@ -54,7 +54,7 @@ let mul4InputEle=document.getElementById('mul4')
 mul4InputEle.addEventListener('change',()=>{
   mul4Input=mul4InputEle.value.split(",").map(x=>+x);;
   
-  document.getElementsByClassName("MulAns")[0].innerText=manipulateArray(mul4Input,add9)
+  document.getElementsByClassName("MulAns")[0].innerText=manipulateArray(mul4Input,mulBy4)
 })
 
 

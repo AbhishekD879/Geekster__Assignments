@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font: 400 14px Nunito Sans,sans-serif,-apple-system,BlinkMacSystemFont,Segoe UI,Oxygen,Ubuntu,Cantarell,Helvetica Neue;
+    line-height: 1.5;
+}
+html {
+    scroll-behavior: smooth;
+  }
+header{
+    display: flex;
+    align-items: center;
+    padding: 10px 10rem;
+    justify-content: space-between;
+    background-color: #5553ff;
+    position: sticky;
+    top: 0;
+}
+.header__left{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #fff;
+}
+.header__right > a{
+    display: inline-block;
+    margin: 0 1.5rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+}
+.header__right > a> div{
+    content: "";
+    position: absolute;
+   
+    height: 2px;
+   
+    background-color: #fff;
+    bottom: 0;
+    transition: width 1s ease ;
+    
+}
+#ArrayManipulation{
+    margin: 5rem 306px;
+}
+#ArrayManipulation> h1{
+    font-size: 2.5rem;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+}
+.inputFromUserForHOF{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.inputFromUserForHOF__EachInputs>input{
+    padding: 5px 0;
+    outline: #5553ff;
+    border: none;
+    border-bottom: 1px solid #5553ff;
+    
+}
+.outputOfHOF{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    align-items: center;
+}
+.ans {
+    width: 15rem;
+    border: 2px solid #5553ff;
+    margin-left: 1rem;
+    display: inline-block;
+    min-height: 2rem;
+    padding: 5px;
+}
+.outputOfHOF__EachOutput{
+    display: flex;
+    align-items: center;
+}
+#mul4{
+    width: 100%;
+}
+
+
+#Anagram{
+    margin: 5rem 306px;
+    
+}
+#Anagram>lable{
+    text-align: left;
+}
+#Anagram>h1{
+    font-size: 2.5rem;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+}
+#Anagram > hr{
+    margin-bottom: 5rem;
+    background-color: #5553ff;
+}
+.anagramSumbit{
+ 
+    background-color: #5553ff;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+.anagramSumbit:hover{
+    box-shadow: 0 0 10px #5553ff;
+}
+.btnContainer__Anagram{
+    text-align: center;
+    margin-top: 2rem;
+}

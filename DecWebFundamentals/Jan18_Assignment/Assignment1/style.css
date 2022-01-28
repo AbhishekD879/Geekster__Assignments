@@ -14,6 +14,9 @@ body{
     vertical-align: middle;
     height: 150px;
   }
+.d-none{
+    display: none;
+}
 /* header Start */
 .header__Container{
     background-color: #fff;
@@ -180,6 +183,7 @@ body{
 .feedCard__Img> img{
     object-fit: cover;
     width: 100%;
+    cursor: pointer;
 }
 .feedCard__ActionContainer{
     padding: 1rem;
@@ -416,6 +420,10 @@ body{
     align-items: flex-start;
     
     flex: 1;
+}
+/* likebtn */
+.like,.unlike{
+    transition: all .1s ease-in-out;
 }
 
 /* media quries */

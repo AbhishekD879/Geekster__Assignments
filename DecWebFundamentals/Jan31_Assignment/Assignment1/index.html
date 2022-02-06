@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"
+    href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/github-dark.min.css">
+    <link rel="stylesheet" href="style.css">
+    
+     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="title header__left">
+            Jan31 Assignment
+        </div>
+        <div class="header__right">
+            <div href="#TwoSum">Two Sum</div>
+            
+        </div>
+    </header>
+    <section id="ArrayManipulation">
+        <h1>Two Sums:-</h1>  
+        <p>Given an array of integers <span class="specialPointer">nums</span> and an integer <span class="specialPointer">target</span>, return <span class="specialPointer">indices</span> of the two numbers such that they add up to <span class="specialPointer">target</span> .</p>
+        
+        <p>You may assume that each input would have <strong class="strongText"><em>exactly </em>one solution</strong>, and you may not use the same element twice.</p>
+
+        <p>You can return the answer in any order.</p>
+
+
+        <h1>Example 1:</h1>
+        <pre><code class="language-javascript vs-dark">
+            Input: nums = [2,7,11,15], target = 9
+            Output: [0,1]
+            Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].
+        </code></pre>
+
+        <h1>Example 2:</h1>
+        <pre><code class="language-javascript vs-dark">
+            Input: nums = [3,2,4], target = 6
+            Output: [1,2]
+        </code></pre>
+
+        <h1>Example 3:</h1>
+        <pre><code class="language-javascript vs-dark">
+            Input: nums = [3,3], target = 6
+            Output: [0,1]
+        </code></pre>
+
+        <h1>Solution:</h1>
+        <pre><code class="language-javascript vs-dark">
+            /**
+             * @param {number[]} nums
+             * @param {number} target
+             * @return {number[]}
+             */
+            var twoSum = function(nums, target) {
+             let frequency={}
+            
+                nums.forEach((num,index)=>{
+                    frequency[num]=index
+                })
+
+                for(let i=0;i< nums.length ;i++){
+                    let requiredNumber=target-nums[i]
+
+                    if(frequency.hasOwnProperty(requiredNumber)&&frequency[requiredNumber]!=i){
+                        return [i,frequency[requiredNumber]]
+                    }
+                }
+
+            };
+        </code></pre>
+
+       <h1 class="functionContainer">twoSum(<input name="InputArray" placeholder="Enter the Array" class="InputArray">,<input name="InputTarget" placeholder="Target Number" class="InputTarget">)</h1>
+       <div class="btnContainer__Anagram">
+        <button class="anagramSumbit">Call The Function twoSums()</button>
+      </div>
+       <p class="specialPointer">Note:-Enter the Array To Get Result without [ ] Example: Your Input: 1,2,5,57,123</p>
+       <h1 id="Answer">Answer:-</h1>
+        
+    </section>
+
+
+</body>
+</html>

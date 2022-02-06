@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+      rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./script.js" defer></script>
+    <title>timer</title>
+</head>
+<body>
+    <div class="timer">
+        <div class="timer__top">
+            <div class="timer__watch selected__timer__top">
+                <span class="material-icons-outlined">
+                    hourglass_empty
+                </span>
+                <span>Timer</span>
+            </div>
+            <div class="timer__stopWatch">
+                <span class="material-icons-outlined">
+                    timer
+                </span>
+                <span>StopWatch</span>
+            </div>
+        </div>
+        <div class="timer__middle">
+            <div class="timer__actual">
+                <span class="min">5</span>m <span class="seconds">00</span>s
+            </div>
+        </div>
+        <div class="timer__bottom">
+            <div class="progressBar"></div>
+            <div>
+                <button class="timerStateBtn">Start</button>
+                <button class="reset">Reset</button>
+            </div>
+            <div>
+                <span class="material-icons-outlined">
+                    volume_up
+                </span>
+                <span class="material-icons-outlined">
+                    crop_free
+                </span>    
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"
+    href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/github-dark.min.css">
+    <link rel="stylesheet" href="style.css">
+    
+     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="title header__left">
+            Feb03 Assignment1
+        </div>
+        <div class="header__right">
+            <div href="#TwoSum">...args</div>
+            
+        </div>
+    </header>
+    <section id="ArrayManipulation">
+        <h1>Js function That Will Add Or Multiply:-</h1>  
+        <p>Write a Js function that will <span class="specialPointer">add</span> or <span class="specialPointer">multiply</span> all the arguments being <span class="specialPointer">provided.</span> to it.</p>
+        <p class="specialPointer">Please note users can provide any number of arguments but at least 3.</p>
+        <p>The first argument will always be a character <strong class="strongText">(+ or * )</strong> denoting what operation to perform.</p>
+
+
+        <h1>Solution:</h1>
+        <pre><code class="language-javascript vs-dark">
+            let operation=(operationToBePerformed,second,third,...args)=>{
+                switch(operationToBePerformed){
+                    case "+":
+                        var result=0
+                        args.forEach((arg)=>{
+                            result+=arg
+                        })
+                       result=result+second+third;
+                       return result
+                       break;
+                    case "-":
+                         var result=0
+                         args.forEach((arg)=>{
+                             result-=arg
+                         })
+                        result=second-third-result;
+                        return result
+                        break;
+                    case "*":
+                         var result=1
+                         args.forEach((arg)=>{
+                             result*=arg
+                         })
+                        result=second*third*result;
+                        return result
+                        break;
+                    case "/":
+                         var result=1
+                         args.forEach((arg)=>{
+                             result/=arg
+                         })
+                        result=second/third/result;
+                        return result
+                        break;
+                     default:
+                        alert("invalid Operation i.e first Argument")              
+                }
+            }
+            
+            
+            
+        </code></pre>
+
+       <h1 class="functionContainer">operation(<input name="InputArray" placeholder="Operation string example '+' " class="InputArray">,<input name="InputTarget" placeholder="Arguments Minimum 2" class="InputTarget">)</h1>
+       <div class="btnContainer__Anagram">
+        <button class="anagramSumbit">Call The Function operation()</button>
+      </div>
+      
+       <h1 id="Answer">Answer:-</h1>
+        
+    </section>
+
+
+</body>
+</html>
